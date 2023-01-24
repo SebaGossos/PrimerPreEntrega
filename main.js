@@ -51,8 +51,9 @@ switch (bebida){
     if (edad < 18){
         alert('Sos menor de edad, Anda pa afuera.')
         console.log('Sos menor de edad, Anda pa afuera.')
+        break;
     }
-    alcoholes = parseInt(prompt('Que Gaseosa desea tomar?, Coloque el numero: 1) Vodka, 2) Fernet, 3) Vino Malbec'))
+    alcoholes = parseInt(prompt('Que Alcohol desea tomar?, Coloque el numero: 1) Vodka, 2) Fernet, 3) Vino Malbec'))
     if (alcoholes === 1){
         metodoDePago =  parseInt(prompt('El valor es $1700 pesos, como desea pagarlo?, coloque el numero: 1) En 1 pago, 2) 12 Cuotas sin interes :)'))
         if (metodoDePago === 2){
